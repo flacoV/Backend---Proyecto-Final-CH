@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Adidas Tributte",
+    "description": "Zapatillas de running hechas para los mejores.",
+    "price": "2323",
+    "category": "Zapatilla",
+    "status": true,
+    "thumbnail": "https://static.vecteezy.com/system/resources/previews/036/625/143/large_2x/ai-generated-sports-shoes-for-the-future-running-shoes-for-the-future-isolated-on-transparent-background-free-png.png",
+    "code": "ADI123",
+    "stock": "222"
+  },
+  {
+    "id": 2,
+    "title": "Converse All Star",
+    "description": "Zapatillas estilo high de alta calidad.",
+    "price": "2323",
+    "category": "Zapatilla",
+    "status": true,
+    "thumbnail": "https://cdn.pixabay.com/photo/2013/07/12/18/20/shoes-153310_1280.png",
+    "code": "CNV123",
+    "stock": "100"
+  },
+  {
+    "id": 3,
+    "title": "ryreh",
+    "description": "tntergnt",
+    "price": "435",
+    "category": "reggre",
+    "status": true,
+    "thumbnail": "fnigisnikjv.com/omage.jpg",
+    "code": "dndng",
+    "stock": "546"
+  },
+  {
+    "id": 4,
+    "title": "Iphone 15",
+    "description": "Ultimo telefono marca Apple",
+    "price": "1299",
+    "category": "Telefonos Celulares",
+    "status": true,
+    "thumbnail": "https://cdn-ipoint.waugi.com.ar/26703-large_default/iphone-15-pro-max-256gb.jpg",
+    "code": "IPH15",
+    "stock": "100"
+  }
+]

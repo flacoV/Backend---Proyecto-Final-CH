@@ -1,0 +1,37 @@
+<div class="container mt-5">
+    <div class="d-flex p-4 justify-content-center">
+        <h1 class="text-center mb-4">PRODUCTOS</h1>
+        <a id="cartButton" href="/cart">CART</a>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        {{#each listadeproductos}}
+        <div class="col mb-4">
+            <div class="card h-100 bg-light">
+                <div class="card-header bg-primary text-white">
+                    <i class="bi bi-tag"></i> Codigo: {{this.code}}
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-white">{{this.title}}</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-info-circle"></i> ID: {{this._id}}</li>
+                        <li><i class="bi bi-file-text"></i> Descripcion: {{this.description}}</li>
+                        <li><i class="bi bi-currency-dollar"></i> Precio: ${{this.price}}</li>
+                        <li><i class="bi bi-grid"></i> Categoria: {{this.category}}</li>
+                        <li><i class="bi bi-check-circle"></i> Status: {{this.status}}</li>
+                        <li><i class="bi bi-box"></i> Stock: {{this.stock}}</li>
+                        <li>
+                            <i class="bi bi-image"></i> Imagen: <img src="{{this.thumbnail}}" alt="{{this.title}}"
+                                class="img-fluid mt-2">
+                        </li>
+                        <div class="d-flex p-2 justify-content-center">
+                            <button onclick="addToCart('{{this._id}}')">Add to Cart</button>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
+
+<script src="/js/home.js"></script>
